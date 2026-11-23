@@ -1,4 +1,5 @@
 %global debug_package %{nil}
+%global _find_debuginfo_opts --no-ar-files
 Summary:	GMP 6.1.2 static library for the GHC bootstrap
 Name:		gmp612
 Version:	6.1.2
